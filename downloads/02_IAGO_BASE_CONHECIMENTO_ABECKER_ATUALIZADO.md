@@ -1,0 +1,402 @@
+```json
+{
+  "metadata": {
+    "versao": "13.1",
+    "revisado_em": "2026-10-23",
+    "moeda": "BRL",
+    "fuso": "America/Sao_Paulo",
+    "regra": "Fonte central. Referências do anexo não são ofertas vigentes. null significa desconhecido."
+  },
+  "fontes": {
+    "confirmacao_direta_usuario": {"tipo": "mensagem direta do usuário", "recebida_em": "2026-10-23", "conteudo": "Porto do Sol já lançado em evento de 17/10; planilha enviada é a tabela atual e lista de unidades remanescentes."},
+    "ANEXO_PRODUTOS": {
+      "tipo": "material fornecido pelo usuário",
+      "nome": "AGENTE PORTO DO SOL  TERRA DOS AÇORES.txt",
+      "validade_comercial": null
+    },
+    "WEB_EMPRESA": {
+      "url": "https://abecker.com.br/quem-somos/",
+      "consultado_em": "2026-10-23",
+      "tipo": "página institucional",
+      "alcance": "Atuação no desenvolvimento de loteamentos e condomínios; não prova condições comerciais."
+    },
+    "WEB_PORTFOLIO": {
+      "url": "https://abecker.com.br/",
+      "consultado_em": "2026-10-23",
+      "tipo": "resultado indexado da página oficial",
+      "limite": "Abertura direta falhou; versões com e sem www divergem em fase comercial e contadores. Não tratar estoque/status como tempo real."
+    },
+    "WEB_ACORES": {
+      "url": "https://abecker.com.br/property/terras-de-acores/",
+      "consultado_em": "2026-10-23",
+      "tipo": "resultado indexado da página oficial",
+      "limite": "Abertura direta indisponível; a indexação corrobora existência, 486 lotes, área mínima, RI e infraestrutura, não a disponibilidade."
+    },
+    "WEB_CONTATO": {
+      "url": "https://abecker.com.br/contato/",
+      "consultado_em": "2026-10-23",
+      "tipo": "página oficial aberta"
+    },
+    "IBGE_2022": {
+      "url": "https://www.ibge.gov.br/cidadesat/xtras/perfil.php?codmun=420210&r=2",
+      "consultado_em": "2026-10-23",
+      "tipo": "resultado indexado oficial",
+      "limite": "Página consultada por busca informa 45.369; anexo e notícias antigas trazem 45.371."
+    },
+    "IBGE_2010": {
+      "url": "https://censo2010.ibge.gov.br/sinopse/index.php?dados=1&uf=42",
+      "consultado_em": "2026-10-23",
+      "tipo": "resultado indexado oficial"
+    },
+    "PLANILHA_PORTO_ATUAL": {
+      "tipo": "tabela e lista de unidades fornecidas pelo usuário",
+      "nome": "Porto_do_Sol_preenchido.xlsx",
+      "recebido_em": "2026-10-23",
+      "arquivo": "fontes/Porto_do_Sol_preenchido.xlsx",
+      "sha256": "6f5a754f5b172f8753e0b4455bb920306a97a5f1ae6624420fcd18c7cc16ef5b",
+      "validade_comercial": null,
+      "limite": "Usuário confirmou tabela atual; retrato estático sem condições de parcelamento ou integração em tempo real."
+    }
+  },
+  "empresa": {
+    "marca": "ABecker",
+    "descricao": "Empresa de desenvolvimento imobiliário com projetos de loteamentos e condomínios.",
+    "fontes": [
+      "WEB_EMPRESA"
+    ],
+    "razao_social_vendedora_por_produto": null,
+    "cnpj_vendedor_por_produto": null,
+    "anos_mercado": {
+      "valor_anexo": "mais de 10",
+      "status": "referencia_institucional",
+      "uso": "Preferir descrição de atuação. Não confundir tempo do fundador com idade da empresa."
+    },
+    "quantidade_lotes": {
+      "valor_anexo": "mais de 60 mil desenvolvidos/entregues/em projeto",
+      "status": "bloqueado_por_ambiguidade",
+      "uso": "Não dizer 60 mil entregues; categorias e contadores públicos divergem."
+    },
+    "contatos_publicos": {
+      "fonte": "WEB_CONTATO",
+      "telefone": "+554732277103",
+      "whatsapp_vendas": "+5547992652775",
+      "whatsapp_pos_venda": "+5547988467478",
+      "whatsapp_cobranca": "+5547999712038",
+      "email": "contato@abecker.com.br",
+      "nota": "São canais institucionais públicos, não rotas automáticas nem comprovação de quem opera este IAGO. Não contatar terceiros automaticamente."
+    },
+    "sede": {
+      "endereco": "Rua Expedicionário Holz, 550, 11º andar, sala 1107, América, Joinville/SC",
+      "fonte": "WEB_CONTATO",
+      "nota": "Sede institucional; não é endereço dos loteamentos."
+    },
+    "horario_institucional": {
+      "segunda_a_quinta": "08:00–18:00",
+      "sexta": "08:00–17:00",
+      "fonte": "WEB_CONTATO",
+      "fuso": "America/Sao_Paulo",
+      "nota": "Não comprova agenda de corretor, plantão, feriados nem prazo de retorno desta operação."
+    }
+  },
+  "barra_velha": {
+    "cidade": "Barra Velha/SC",
+    "regiao": "Litoral Norte de Santa Catarina",
+    "enredo": {
+      "moradia": "Planejar uma rotina no litoral considerando serviços, acesso e prazo de construção.",
+      "lazer": "Avaliar um terreno para um futuro projeto de casa de praia, incluindo custo e prazo da obra.",
+      "investimento": "Avaliar localização, documentação, prazo, custo total e possíveis cenários de revenda, sem retorno garantido."
+    },
+    "populacao": {
+      "censo_2010": 22386,
+      "censo_2022_pagina_atual": 45369,
+      "censo_2022_anexo": 45371,
+      "fontes": [
+        "IBGE_2010",
+        "IBGE_2022",
+        "ANEXO_PRODUTOS"
+      ],
+      "formulacao_preferida": "Segundo os Censos do IBGE, Barra Velha mais que dobrou a população entre 2010 e 2022.",
+      "nota": "O período é de 12 anos. Crescimento populacional não é valorização imobiliária e não é taxa anual de dois dígitos."
+    },
+    "historico_valorizacao_anexo": {
+      "percentual": 151.87,
+      "periodo": "08/2021 a 08/2026",
+      "valor_inicial_brl": 254016,
+      "valor_final_brl": 639800,
+      "status": "bloqueado_sem_estudo_primario",
+      "fonte": "ANEXO_PRODUTOS",
+      "motivo": "Sem laudo, amostra, unidade comparável e metodologia. Não extrapolar para o município ou os dois produtos."
+    },
+    "tempos_e_distancias_regionais": {
+      "status": "pendentes",
+      "uso": "Não reproduzir tempos de viagem, 14,8 km de Joinville ou distâncias a serviços sem ponto de origem e mapa verificado."
+    }
+  },
+  "produtos": {
+    "porto_do_sol": {
+      "nome": "Residencial Porto do Sol",
+      "aliases": [
+        "Porto do Sol",
+        "Porto do Sol Residencial"
+      ],
+      "tipo": "loteamento residencial",
+      "cidade": "Barra Velha/SC",
+      "bairro": "Itajubá",
+      "fontes": [
+        "ANEXO_PRODUTOS",
+        "WEB_PORTFOLIO",
+        "PLANILHA_PORTO_ATUAL"
+      ],
+      "posicionamento": "Terrenos para avaliar moradia ou projeto de casa de praia em Itajubá.",
+      "total_lotes_projeto": {
+        "valor": 452,
+        "status": "corroborado_em_busca_oficial",
+        "fonte": "WEB_PORTFOLIO",
+        "nota": "Não significa lotes disponíveis. O anexo também menciona 453, substituído pela contagem pública de 452."
+      },
+      "area_minima_m2": {
+        "valor": 300,
+        "fonte": "ANEXO_PRODUTOS",
+        "status": "informado_no_material"
+      },
+      "endereco_referencia": {
+        "valor": "Rua 1902, esquina com Rua Maristela Mendes Amorim, Itajubá",
+        "pin_google_maps": "https://maps.app.goo.gl/3PGkfVoTbcUsqTgZ6?g_st=ic",
+        "pin_status": "link fornecido pelo usuário para o endereço do loteamento",
+        "variantes_anexo": [
+          "Rua 190",
+          "Maristela Mendes Amorin"
+        ],
+        "status": "confirmar_grafia_e_pin",
+        "fonte": "ANEXO_PRODUTOS"
+      },
+      "distancia_praia_m": {
+        "valor": null,
+        "status": "nao_confirmada"
+      },
+      "distancia_rodovia_m": {
+        "valor_anexo": 230,
+        "rodovia_anexo": "SC-301",
+        "status": "bloqueado_ate_conferencia_geografica",
+        "fonte": "ANEXO_PRODUTOS",
+        "nota": "O texto migra essa distância da rodovia para a praia. Não anunciar 230 m do mar ou pé na areia."
+      },
+      "infraestrutura": {
+        "descricao_anexo": "Infraestrutura completa",
+        "status": "informado_no_material",
+        "detalhamento_e_entrega": null
+      },
+      "entrega_prevista": {
+        "valor_anexo": "2028-02",
+        "status": "referencia_a_confirmar_no_contrato",
+        "fonte": "ANEXO_PRODUTOS",
+        "nota": "Previsão de obras, não data garantida de liberação para construir."
+      },
+      "registro": {
+        "matricula": "35.886",
+        "ato": "R-10-35.886",
+        "data_anexo": "2024-12-18",
+        "cartorio": "Registro de Imóveis da Comarca de Barra Velha/SC",
+        "fonte": "ANEXO_PRODUTOS",
+        "status": "informado_no_material_sem_certidao_atual"
+      },
+      "precos_referencia": {
+        "fonte": "PLANILHA_PORTO_ATUAL",
+        "status": "tabela_atual_informada_usuario_snapshot",
+        "a_partir_de_brl": 307780,
+        "ate_brl": 720280,
+        "unidade_menor_preco_id": "L-10",
+        "arquivo_unidades": "IAGO_PORTO_DO_SOL_UNIDADES.json",
+        "recebida_em": "2026-10-23",
+        "vigencia": null,
+        "modalidade_pagamento": null,
+        "parcelamento": null,
+        "nota": "Usar valores por quadra e lote desta planilha. As referências anteriores de lançamento foram substituídas; não reutilizar seus planos para os preços novos."
+      },
+      "campanha": {
+        "status": "lancamento_ja_realizado",
+        "dia_mes_evento_usuario": "17/10",
+        "data_ativa": null,
+        "nota": "Produto em vendas. Não usar a antiga fase de represamento ou metas de cadastro como escassez."
+      },
+      "estoque_atual": {
+        "tipo": "snapshot_fornecido_pelo_usuario",
+        "fonte": "PLANILHA_PORTO_ATUAL",
+        "data_recebimento": "2026-10-23",
+        "quantidade_disponivel_na_planilha": 64,
+        "tempo_real": false,
+        "arquivo": "IAGO_PORTO_DO_SOL_UNIDADES.json"
+      },
+      "mapa_oficial_url": null,
+      "catalogo_oficial_url": null,
+      "regras_construtivas": null,
+      "permitido_construir_agora": null,
+      "custos_iptu_taxas": null,
+      "fase_comercial": {
+        "status": "em_vendas_pos_lancamento",
+        "fonte": "confirmacao_direta_usuario",
+        "evento_realizado_dia_mes": "17/10",
+        "ano_pelo_contexto_da_conversa": 2026,
+        "nota": "O usuário confirmou que o evento já ocorreu. Não tratar como pré-lançamento, nem criar contagem regressiva ou fila anterior ao evento."
+      }
+    },
+    "terras_de_acores": {
+      "nome": "Terras de Açores",
+      "aliases": [
+        "Terras de Acores",
+        "Terra dos Açores",
+        "Terra de Açores",
+        "Terras dos Açores"
+      ],
+      "tipo": "loteamento com proposta de bairro planejado",
+      "cidade": "Barra Velha/SC",
+      "fontes": [
+        "ANEXO_PRODUTOS",
+        "WEB_ACORES"
+      ],
+      "posicionamento": "Planejamento urbano, natureza e espaços de convivência.",
+      "parceria_anexo": "ABecker e Barra Velha Empreendimentos",
+      "nome_registral_anexo": "Nova Barra Velha II",
+      "total_lotes_projeto": {
+        "valor": 486,
+        "status": "corroborado_em_busca_oficial",
+        "fonte": "WEB_ACORES",
+        "nota": "Projeto/fase descrita, não estoque disponível."
+      },
+      "areas": {
+        "minima_m2": 300,
+        "maxima_anexo_m2": 800,
+        "maxima_status": "confirmar_mapa_de_lotes",
+        "total_fase_m2": 333085,
+        "quadras": 21,
+        "lotes_m2": 177087.09,
+        "institucional_m2": 58189.85,
+        "sistema_viario_m2": 79116.95,
+        "verde_m2": 18658.1,
+        "fonte": "ANEXO_PRODUTOS",
+        "nota": "Soma dos componentes é 333.051,99 m²: diferença de 33,01 m². Conferir memorial antes de citar decomposição."
+      },
+      "localizacao": {
+        "referencia": "Rua Teresinha Salete Nichetti Volkmann, Barra Velha/SC",
+        "pin_google_maps": "https://maps.app.goo.gl/f7aMdMiKxZDCdTzd8?g_st=iwb",
+        "pin_status": "link fornecido pelo usuário para o endereço do loteamento",
+        "relacao_lagoa": "Proximidade da lagoa descrita na página oficial",
+        "centro": "Posicionamento do anexo; não afirmar distância exata ao centro",
+        "fontes": [
+          "ANEXO_PRODUTOS",
+          "WEB_ACORES"
+        ]
+      },
+      "infraestrutura": {
+        "itens": [
+          "pavimentação",
+          "drenagem pluvial",
+          "rede de água",
+          "rede de esgoto",
+          "rede elétrica e iluminação",
+          "sinalização viária",
+          "espaços de convivência"
+        ],
+        "fontes": [
+          "ANEXO_PRODUTOS",
+          "WEB_ACORES"
+        ],
+        "status": "prevista_descrita_no_projeto_nao_comprova_entrega"
+      },
+      "pracas_tematicas": {
+        "itens_anexo": [
+          "Food Park",
+          "Skate Park",
+          "Praça Zen",
+          "Bosque",
+          "Academia ao ar livre"
+        ],
+        "fonte": "ANEXO_PRODUTOS",
+        "status": "previstas_no_material_confirmar_memorial",
+        "nota": "Não tratar os cinco nomes como equipamentos em funcionamento nem como diferencial exclusivo da cidade."
+      },
+      "entrega_prevista": {
+        "valor": null,
+        "status": "nao_informada"
+      },
+      "registro": {
+        "matricula": "29.867",
+        "ato": "R-10-29.867",
+        "data_anexo": "2024-06-21",
+        "cartorio": "Registro de Imóveis da Comarca de Barra Velha/SC",
+        "fontes": [
+          "ANEXO_PRODUTOS",
+          "WEB_ACORES"
+        ],
+        "status": "numero_corrobora_busca_oficial_sem_certidao_atual"
+      },
+      "precos_referencia": {
+        "fonte": "ANEXO_PRODUTOS",
+        "status": "referencia_sem_validade_confirmada",
+        "a_partir_de_brl": 229800,
+        "outras_faixas_brl": [
+          269800,
+          303800
+        ],
+        "lote_especifico": null,
+        "vigencia": null,
+        "plano_240": {
+          "preco_base_brl": 229800,
+          "entrada_percentual_anexo": 10,
+          "entrada_brl_anexo": 22900,
+          "entrada_10_percentual_calculada_brl": 22980,
+          "entrada_forma_anexo": "até 3 vezes",
+          "numero_parcelas": 240,
+          "parcela_informada_brl": 2189.31,
+          "taxa_mensal_informada_percentual": 0.9488,
+          "correcao": "IPCA anual",
+          "sistema_amortizacao": null,
+          "status": "bloqueado_divergencia_entrada_e_fluxo"
+        },
+        "plano_36": {
+          "preco_base_brl": 229800,
+          "entrada_percentual": 10,
+          "entrada_brl": 22980,
+          "numero_parcelas": 36,
+          "parcela_informada_brl": 5745,
+          "juros_remuneratorios_mensais_anexo": false,
+          "correcao": "IPCA anual",
+          "soma_nominal_informada_brl": 229800,
+          "status": "referencia_aritmeticamente_coerente_mas_sem_validade"
+        },
+        "plano_alternativo_240": {
+          "preco_base_brl": 303800,
+          "entrada_brl": 30380,
+          "numero_parcelas": 240,
+          "parcela_informada_brl": 3034.59,
+          "taxa_mensal_informada_percentual": 0.9488,
+          "correcao": "IPCA anual",
+          "status": "referencia_nao_aprovada_como_proposta"
+        }
+      },
+      "campanha": {
+        "dia_mes_anexo": "07/11",
+        "ano": null,
+        "data_ativa": null,
+        "meta_cadastros_interna": 500,
+        "duracao_represamento_dias_anexo": 53,
+        "status": "nao_ativar_sem_regulamento_e_data_completa"
+      },
+      "estoque_atual": null,
+      "mapa_oficial_url": null,
+      "catalogo_oficial_url": null,
+      "regras_construtivas": null,
+      "permitido_construir_agora": null,
+      "custos_iptu_taxas": null
+    }
+  },
+  "politica_comercial": {
+    "simulacao_aprovada": false,
+    "tabelas_vigentes": [],
+    "reservas_automaticas": false,
+    "valorizacao_garantida": false,
+    "nota": "Porto do Sol: tabela de preços e unidades atual informada pelo usuário, com confirmação final de disponibilidade e parcelamento pela equipe. Terras de Açores: referências sem validade confirmada. Sem oferta parcelada ou reserva automática aprovada."
+  }
+}
+
+```
