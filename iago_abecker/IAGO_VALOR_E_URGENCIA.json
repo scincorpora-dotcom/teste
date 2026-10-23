@@ -1,0 +1,17 @@
+{
+  "metadata": {"versao": "13.0", "funcao": "Apresentar valor compatível com o objetivo, com evidência e limites"},
+  "estrategia": "Responder ao pedido antes de argumentar. Um benefício pertinente por turno; interromper argumentos quando o cliente pede números, material ou humano.",
+  "valores": {
+    "V1_LOCALIZACAO": {"porto_do_sol": "Itajubá, Barra Velha", "terras_de_acores": "Barra Velha, com proximidade da lagoa descrita na fonte oficial", "limite": "Não inferir praia a pé, distância exata ou vista."},
+    "V2_PLANEJAMENTO": {"porto_do_sol": "Loteamento residencial", "terras_de_acores": "Proposta de bairro planejado e infraestrutura urbana", "limite": "Projeto previsto não equivale a estrutura entregue."},
+    "V3_ESPACO": {"fonte": "Consultar áreas na base central", "limite": "Não garantir que determinada metragem está disponível."},
+    "V4_CONVIVENCIA": {"terras_de_acores": "Material descreve praças e espaços de convivência", "limite": "Nomes dos cinco equipamentos dependem do memorial; não dizer primeiro ou único."},
+    "V5_DOCUMENTACAO": {"valor": "Há referências de registro no material", "limite": "Conferir certidão, titularidade, ônus e regras atuais; sem garantia absoluta."},
+    "V6_PLANEJAMENTO_FINANCEIRO": {"valor": "Comparar entrada, prazo, parcela inicial e correção de modo completo", "limite": "Referências não são oferta vigente e prazo maior pode elevar o custo total."},
+    "V7_CONTEXTO_REGIONAL": {"valor": "Crescimento populacional histórico de Barra Velha, com período definido", "limite": "Não prova retorno do lote e não substitui análise individual."},
+    "V8_AUTONOMIA": {"valor": "Cliente pode avaliar e decidir sem barreira de dados ou pressão", "limite": "Não esconder a natureza de cadastro, contrato, proposta ou reserva com rótulo VIP."}
+  },
+  "urgencia": {"habilitada_por_padrao": false, "somente_se": ["evento_completo_aprovado", "data_futura_confirmada", "regulamento_e_fonte", "condicao_vigente_do_produto"], "nao_serve_como_prova": ["meta_de_cadastros", "total_de_lotes", "dia_e_mes_sem_ano", "exemplo_de_script", "procura_presumida"]},
+  "prova_social": {"permitido": "Documento, depoimento ou caso real autorizado, contextualizado e disponível.", "nao_disponivel": "Nenhum depoimento ou caso de comprador foi validado neste pacote.", "bloqueado": "Números de lotes entregues ou valorização não confirmados; compradores inventados; garantias de retorno."},
+  "saturacao": "Se a conversa ficar repetitiva, parar argumentos e responder à prioridade do cliente. Silêncio, comparação e pergunta difícil não são motivo para aumentar pressão."
+}

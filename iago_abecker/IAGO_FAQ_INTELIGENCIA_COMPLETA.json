@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "versao": "13.1",
+    "funcao": "Respostas de referência; consultar fatos na base central para evitar tabelas duplicadas",
+    "fonte_fatos": "IAGO_BASE_CONHECIMENTO_ABECKER.json"
+  },
+  "instrucoes_uso": [
+    "Responder à pergunta feita, mesmo antes da triagem.",
+    "Não tratar este FAQ como preço em tempo real.",
+    "Uma pergunta opcional depois da resposta; nunca esconder informação para extrair dados.",
+    "A falta de informação deve ser reconhecida de forma direta e acompanhada de próximo passo real."
+  ],
+  "perguntas": [
+    {
+      "id": "F01",
+      "pergunta": "Quem é a ABecker?",
+      "resposta": "É uma empresa de desenvolvimento imobiliário com atuação em projetos de loteamentos e condomínios. Posso indicar a página institucional para você conhecer a empresa.",
+      "refs": [
+        "empresa.descricao",
+        "fontes.WEB_EMPRESA"
+      ]
+    },
+    {
+      "id": "F02",
+      "pergunta": "Quais produtos vocês atendem?",
+      "resposta": "Neste atendimento, apresento o Residencial Porto do Sol e o Terras de Açores, ambos em Barra Velha/SC. São terrenos para você avaliar conforme seu objetivo.",
+      "refs": [
+        "produtos"
+      ]
+    },
+    {
+      "id": "F03",
+      "pergunta": "É casa, apartamento ou terreno?",
+      "resposta": "São terrenos. Um projeto de casa e a construção precisam ser planejados à parte; não estão incluídos como casa pronta.",
+      "refs": [
+        "produtos.porto_do_sol.tipo",
+        "produtos.terras_de_acores.tipo"
+      ]
+    },
+    {
+      "id": "F04",
+      "pergunta": "Qual a diferença entre os dois?",
+      "resposta": "O Porto do Sol é um loteamento residencial em Itajubá. O Terras de Açores tem proposta de bairro planejado com infraestrutura e convivência. A escolha depende da região e do tipo de uso que você procura.",
+      "refs": [
+        "produtos.porto_do_sol.posicionamento",
+        "produtos.terras_de_acores.posicionamento"
+      ]
+    },
+    {
+      "id": "F05",
+      "pergunta": "Onde fica o Porto do Sol?",
+      "resposta": "Fica no bairro Itajubá, em Barra Velha/SC. O endereço completo e o pin do loteamento precisam ser confirmados pela equipe antes de uma visita.",
+      "refs": [
+        "produtos.porto_do_sol.bairro",
+        "produtos.porto_do_sol.endereco_referencia"
+      ]
+    },
+    {
+      "id": "F06",
+      "pergunta": "É a 230 metros da praia?",
+      "resposta": "Não tenho essa distância da praia confirmada. O material apresenta uma referência rodoviária que não deve ser confundida com distância do mar. Precisamos conferir a localização no mapa oficial.",
+      "refs": [
+        "produtos.porto_do_sol.distancia_praia_m",
+        "produtos.porto_do_sol.distancia_rodovia_m"
+      ]
+    },
+    {
+      "id": "F07",
+      "pergunta": "Qual a metragem do Porto do Sol?",
+      "resposta": "Na planilha recebida em 23/10/2026, há lotes do Porto do Sol de 300 m² a 546,72 m². A metragem e o valor devem ser conferidos juntos pela quadra e pelo número do lote.",
+      "refs": [
+        "produtos.porto_do_sol.estoque_atual"
+      ]
+    },
+    {
+      "id": "F08",
+      "pergunta": "São 452 ou 453 lotes?",
+      "resposta": "A referência pública da ABecker informa 452 terrenos no projeto. Esse total não representa quantos estão disponíveis para venda hoje.",
+      "refs": [
+        "produtos.porto_do_sol.total_lotes_projeto"
+      ]
+    },
+    {
+      "id": "F09",
+      "pergunta": "Quando entrega o Porto do Sol?",
+      "resposta": "O material recebido menciona fevereiro de 2028 como previsão de conclusão. É necessário conferir o cronograma e o contrato atuais; isso não confirma liberação imediata para construir.",
+      "refs": [
+        "produtos.porto_do_sol.entrega_prevista"
+      ]
+    },
+    {
+      "id": "F10",
+      "pergunta": "Onde fica o Terras de Açores?",
+      "resposta": "O material situa o projeto na Rua Teresinha Salete Nichetti Volkmann, em Barra Velha. A página oficial também descreve proximidade da lagoa. O pin exato deve ser confirmado para a visita.",
+      "refs": [
+        "produtos.terras_de_acores.localizacao"
+      ]
+    },
+    {
+      "id": "F11",
+      "pergunta": "Qual a metragem do Terras de Açores?",
+      "resposta": "A área mínima divulgada é de 300 m². O material recebido menciona opções até 800 m², mas a existência de uma opção nessa faixa precisa ser conferida no mapa atual.",
+      "refs": [
+        "produtos.terras_de_acores.areas"
+      ]
+    },
+    {
+      "id": "F12",
+      "pergunta": "Quantos terrenos tem o Terras de Açores?",
+      "resposta": "São 486 terrenos no projeto descrito. Isso é diferente do estoque atual, que depende de consulta à equipe.",
+      "refs": [
+        "produtos.terras_de_acores.total_lotes_projeto"
+      ]
+    },
+    {
+      "id": "F13",
+      "pergunta": "Quais são as cinco praças?",
+      "resposta": "O material descreve Food Park, Skate Park, Praça Zen, Bosque e Academia ao ar livre como espaços previstos. O memorial atualizado deve confirmar esses itens; não estou afirmando que já estejam entregues.",
+      "refs": [
+        "produtos.terras_de_acores.pracas_tematicas"
+      ]
+    },
+    {
+      "id": "F14",
+      "pergunta": "Qual a infraestrutura do Terras de Açores?",
+      "resposta": "O projeto descreve pavimentação, drenagem, redes de água, esgoto e energia, sinalização e espaços de convivência. A situação de execução de cada item deve ser conferida no cronograma e no memorial.",
+      "refs": [
+        "produtos.terras_de_acores.infraestrutura"
+      ]
+    },
+    {
+      "id": "F15",
+      "pergunta": "Quando entrega o Terras de Açores?",
+      "resposta": "A data de entrega não está confirmada na base deste atendimento. A equipe precisa verificar o cronograma atual e o contrato do empreendimento.",
+      "refs": [
+        "produtos.terras_de_acores.entrega_prevista"
+      ]
+    },
+    {
+      "id": "F16",
+      "pergunta": "Qual o preço do Porto do Sol?",
+      "resposta": "Na tabela que recebemos, o Porto do Sol tem lote a partir de R$ 307.780: quadra L, lote 10, com 300 m². O preço e a disponibilidade são conforme a planilha recebida em 23/10/2026 e precisam de confirmação antes da proposta.",
+      "refs": [
+        "produtos.porto_do_sol.precos_referencia"
+      ]
+    },
+    {
+      "id": "F17",
+      "pergunta": "Qual o preço do Terras de Açores?",
+      "resposta": "A referência inicial no material é de R$ 229.800. Não é uma oferta vigente confirmada; preço e disponibilidade dependem do lote e da tabela atual.",
+      "refs": [
+        "produtos.terras_de_acores.precos_referencia"
+      ]
+    },
+    {
+      "id": "F18",
+      "pergunta": "Qual a condição de 36 meses do Porto do Sol?",
+      "resposta": "A tabela atual do Porto do Sol informa os valores dos lotes, mas não traz entrada ou parcelas em 36 meses. Não vou aplicar o plano antigo aos novos preços; a equipe precisa confirmar o fluxo para o lote escolhido.",
+      "refs": [
+        "produtos.porto_do_sol.precos_referencia"
+      ]
+    },
+    {
+      "id": "F19",
+      "pergunta": "Qual a condição de 36 meses do Terras de Açores?",
+      "resposta": "Como referência do material: lote de R$ 229.800, entrada de R$ 22.980 e 36 parcelas iniciais de R$ 5.745. Há previsão de IPCA anual, sem juros remuneratórios mensais. A tabela não tem validade confirmada; precisamos consultar a condição atual.",
+      "refs": [
+        "produtos.terras_de_acores.precos_referencia.plano_36"
+      ]
+    },
+    {
+      "id": "F20",
+      "pergunta": "Qual a condição de 240 meses do Porto do Sol?",
+      "resposta": "A planilha atual do Porto do Sol não informa condições em 240 meses, entrada, juros ou correção. A equipe precisa confirmar o parcelamento do lote escolhido; as condições antigas não devem ser reutilizadas automaticamente.",
+      "refs": [
+        "produtos.porto_do_sol.precos_referencia"
+      ]
+    },
+    {
+      "id": "F21",
+      "pergunta": "A entrada do Terras de Açores é R$ 22.900 ou R$ 22.980?",
+      "resposta": "O material diverge nesse ponto: menciona R$ 22.900, mas 10% de R$ 229.800 são R$ 22.980. Por isso, não vou apresentar esse plano como condição aprovada. A equipe precisa confirmar a entrada e o fluxo atual.",
+      "refs": [
+        "produtos.terras_de_acores.precos_referencia.plano_240"
+      ]
+    },
+    {
+      "id": "F22",
+      "pergunta": "As parcelas são fixas?",
+      "resposta": "A planilha atual do Porto do Sol não informa parcelamento nem correção. Para o Terras de Açores, o material de referência prevê IPCA anual e taxa mensal no plano longo. Em ambos, a condição aplicável precisa ser confirmada antes de afirmar valor de parcela.",
+      "refs": [
+        "produtos.porto_do_sol.precos_referencia",
+        "produtos.terras_de_acores.precos_referencia"
+      ]
+    },
+    {
+      "id": "F23",
+      "pergunta": "Você consegue uma entrada menor?",
+      "resposta": "Posso encaminhar seu cenário para análise, mas a aprovação é da equipe responsável. Não consigo garantir uma entrada diferente da tabela ou uma negociação por aqui.",
+      "refs": [
+        "politica_comercial"
+      ]
+    },
+    {
+      "id": "F24",
+      "pergunta": "Posso usar banco ou FGTS?",
+      "resposta": "A possibilidade de financiamento bancário ou uso de FGTS não está confirmada para esses lotes. A equipe deve analisar a modalidade e os requisitos antes de orientar seu planejamento.",
+      "refs": [
+        "politica_comercial"
+      ]
+    },
+    {
+      "id": "F25",
+      "pergunta": "Quanto vai valorizar?",
+      "resposta": "Não há retorno futuro garantido nem projeção validada para esses lotes nesta base. Vale avaliar preço de entrada, localização, custos, prazo e risco de revenda; crescimento da cidade não garante valorização do terreno.",
+      "refs": [
+        "barra_velha.historico_valorizacao_anexo"
+      ]
+    },
+    {
+      "id": "F26",
+      "pergunta": "O que significa o crescimento de Barra Velha?",
+      "resposta": "Os Censos do IBGE mostram que a população mais que dobrou entre 2010 e 2022. É contexto sobre a cidade, não uma medida de valorização ou uma garantia de retorno imobiliário.",
+      "refs": [
+        "barra_velha.populacao"
+      ]
+    },
+    {
+      "id": "F27",
+      "pergunta": "Vou receber renda mensal com o terreno?",
+      "resposta": "O terreno por si só não tem renda de hospedagem prevista neste atendimento. Construir e eventualmente alugar exige outro projeto, custos, autorizações e análise de mercado; não há receita automática incluída.",
+      "refs": [
+        "produtos"
+      ]
+    },
+    {
+      "id": "F28",
+      "pergunta": "Qual o registro dos empreendimentos?",
+      "resposta": "O material informa R-10-35.886 para o Porto do Sol e R-10-29.867 para o Terras de Açores, no Registro de Imóveis de Barra Velha. A conferência deve usar certidões e documentos atuais; citar um número não garante ausência de ônus ou risco.",
+      "refs": [
+        "produtos.porto_do_sol.registro",
+        "produtos.terras_de_acores.registro"
+      ]
+    },
+    {
+      "id": "F29",
+      "pergunta": "Já posso construir?",
+      "resposta": "Isso depende da situação de implantação, liberação, contrato e aprovação do seu projeto. Não há confirmação de construção imediata nesta base; precisamos verificar o lote e as regras atuais.",
+      "refs": [
+        "produtos.porto_do_sol.permitido_construir_agora",
+        "produtos.terras_de_acores.permitido_construir_agora"
+      ]
+    },
+    {
+      "id": "F30",
+      "pergunta": "É condomínio fechado? Tem taxa de condomínio?",
+      "resposta": "Os produtos são descritos como loteamentos. Não tenho confirmação de condomínio fechado ou de cobrança condominial. A natureza jurídica e eventuais taxas devem ser verificadas nos documentos do produto.",
+      "refs": [
+        "produtos"
+      ]
+    },
+    {
+      "id": "F31",
+      "pergunta": "Quanto custa IPTU e documentação?",
+      "resposta": "Não tenho valores atuais de IPTU, escritura, registro ou outras despesas para esses lotes. A equipe deve apresentar os custos aplicáveis ao lote e à operação antes da decisão.",
+      "refs": [
+        "produtos.porto_do_sol.custos_iptu_taxas",
+        "produtos.terras_de_acores.custos_iptu_taxas"
+      ]
+    },
+    {
+      "id": "F32",
+      "pergunta": "Qual a data de lançamento?",
+      "resposta": "O Porto do Sol já foi lançado no evento de 17/10 e está em vendas, conforme informado pela operação. A data atual do Terras de Açores ainda depende de confirmação; não há campanha futura validada nesta base.",
+      "refs": [
+        "produtos.porto_do_sol.fase_comercial",
+        "produtos.terras_de_acores.campanha"
+      ]
+    },
+    {
+      "id": "F33",
+      "pergunta": "Você garante meu lote ou minha prioridade?",
+      "resposta": "Não consigo garantir lote, preço ou prioridade por esta conversa. Uma reserva depende das regras atuais, disponibilidade e confirmação da equipe responsável.",
+      "refs": [
+        "politica_comercial"
+      ]
+    },
+    {
+      "id": "F34",
+      "pergunta": "Preciso dar CPF para saber o preço?",
+      "resposta": "Não. Você pode conhecer os projetos, consultar referências e falar com a equipe sem passar CPF na qualificação. Dados de formalização ficam para a etapa necessária, em canal validado.",
+      "refs": [
+        "politica_comercial"
+      ]
+    },
+    {
+      "id": "F35",
+      "pergunta": "Quero o PDF ou a localização no Maps",
+      "resposta": "Envie o arquivo oficial disponível ou o pin aprovado, se houver integração habilitada. Se não houver, informe que o item não está disponível no atendimento e ofereça canal real da equipe. Nunca dizer 'segue em anexo' sem envio.",
+      "tipo": "instrucao_interna_nao_enviar_literalmente",
+      "refs": [
+        "produtos.porto_do_sol.catalogo_oficial_url",
+        "produtos.terras_de_acores.mapa_oficial_url"
+      ]
+    },
+    {
+      "id": "F36",
+      "pergunta": "Quero falar com humano ou visitar",
+      "resposta": "Atenda o pedido usando a rota real disponível, com os dados já informados. Não exigir score mínimo ou qualificação adicional e não confirmar visita sem retorno da agenda.",
+      "tipo": "instrucao_interna_nao_enviar_literalmente",
+      "refs": [
+        "empresa.contatos_publicos"
+      ]
+    },
+    {
+      "id": "F37",
+      "pergunta": "Você é uma IA?",
+      "resposta": "Sim, sou o assistente virtual de atendimento dos empreendimentos da ABecker. Posso esclarecer os projetos ou indicar o atendimento humano.",
+      "refs": []
+    },
+    {
+      "id": "F38",
+      "pergunta": "Não quero mais mensagens",
+      "resposta": "Entendido. Vou encerrar os lembretes comerciais deste atendimento.",
+      "nota": "A plataforma deve efetivar a supressão; não retomar vendas nessa resposta.",
+      "refs": []
+    },
+    {
+      "id": "F39",
+      "pergunta": "Apague meus dados",
+      "resposta": "Entendi sua solicitação. Ela precisa ser tratada pelo responsável pelos dados deste atendimento; não consigo confirmar uma exclusão em sistemas por aqui. Também vou interromper os lembretes comerciais.",
+      "nota": "Usar canal de privacidade configurado; não inventar prazo ou declarar execução concluída.",
+      "refs": []
+    },
+    {
+      "id": "F40",
+      "pergunta": "Já comprei e preciso de suporte",
+      "resposta": "Nesse caso, o caminho é o pós-venda. Vou orientar pelo canal disponível para o seu pedido, sem refazer a qualificação de compra.",
+      "nota": "Informar canal efetivo; somente confirmar transferência com ferramenta.",
+      "refs": [
+        "empresa.contatos_publicos"
+      ]
+    }
+  ]
+}

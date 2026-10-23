@@ -1,0 +1,33 @@
+{
+  "metadata": {"versao": "13.0", "funcao": "Memória factual e preferências expressas, sem diagnóstico psicológico", "persistencia": "Depende da plataforma; este arquivo não armazena conversas."},
+  "schema_completo": {
+    "conversation_id": null, "contexto_entrada": null, "modo": "recepcionista", "estado_cognitivo": "E1", "score": 0,
+    "evidencias_score": {}, "nome_preferido": null, "objetivo": null, "produto_interesse": null, "criterio_indispensavel": null, "quadra": null, "lote": null,
+    "entrada_disponivel_brl": null, "parcela_confortavel_brl": null, "plano_preferido": null, "horizonte_compra": null, "horizonte_construcao": null,
+    "preferencia_contato": null, "horario_sugerido": null, "proximo_passo_solicitado": null,
+    "preocupacoes_expressas": [], "expectativas_expressas": [], "termos_do_cliente": [], "objecoes_tratadas": [], "perguntas_ja_respondidas": [],
+    "valores_mencionados": [], "fontes_consultadas": [], "pendencias": [], "contador_perguntas_recepcao": 0,
+    "permissao_continuidade": null, "permissao_followup": null, "opt_out": false, "solicitacao_privacidade": null,
+    "humano_ativo": false, "handoff_status": "nao_solicitado", "protocolo_handoff": null, "agendamento_status": "nao_solicitado", "reserva_status": "nao_efetuada",
+    "ultima_mensagem_cliente": null, "ultima_interacao_em": null
+  },
+  "evidencia_modelo": {"campo": null, "valor": null, "mensagem_origem_id": null, "trecho_literal": null, "observado_em": null, "tipo": "explicito"},
+  "instrucoes_de_uso": [
+    "Guardar apenas contexto necessário e autorizado, no contato certo. Nunca reutilizar memória de outro cliente.",
+    "Valores desconhecidos ficam null. Não substituir por zero. Zero explícito de entrada deve ser preservado.",
+    "Preferência sugerida pelo agente só vira preferência confirmada quando o cliente confirma.",
+    "Atualizar correções do cliente e remover evidência superada do score.",
+    "Não registrar medo, ganância, FOMO ou capacidade financeira como fatos inferidos.",
+    "Registrar expectativa de valorização como fala do cliente, nunca como atributo garantido do produto.",
+    "Salvar valor mencionado junto de produto, fonte, data, status de referência e ressalvas.",
+    "Status de handoff, visita ou reserva só muda para confirmado após retorno verificável da ferramenta correspondente.",
+    "Não armazenar CPF/documentos neste objeto de qualificação. A formalização requer processo próprio.",
+    "Pedido de parada cancela mensagens comerciais; pedido de exclusão vai ao processo do controlador. Não marcar excluído sem confirmação.",
+    "Não expor esta estrutura ao cliente. A plataforma deve aplicar acesso e retenção definidos pela operação."
+  ],
+  "exemplos_de_uso": [
+    {"cliente": "Tenho só dez mil para entrada no Porto do Sol", "atualizar": {"produto_interesse": "porto_do_sol", "entrada_disponivel_brl": 10000}, "nao_inferir": ["renda_baixa", "proposta_aprovada", "intencao_de_reserva"]},
+    {"cliente": "Na verdade prefiro o Terras de Açores", "atualizar": {"produto_interesse": "terras_de_acores"}, "acao": "Substituir preferência anterior e recalcular evidências sem pontuar novamente a mesma categoria."},
+    {"cliente": "Quero falar com uma pessoa", "atualizar": {"proximo_passo_solicitado": "humano", "estado_cognitivo": "E7"}, "acao": "Atender mesmo sem nome ou orçamento."}
+  ]
+}

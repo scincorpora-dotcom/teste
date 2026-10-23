@@ -1,0 +1,41 @@
+IAGO ABECKER V13 — PRONTIDÃO POR EVIDÊNCIAS
+
+Score não é probabilidade de compra, valor da pessoa ou diagnóstico emocional.
+Somar as evidências atuais e explícitas, uma vez por categoria; limitar a 0–100.
+O mesmo fato não pode preencher duas categorias. Uma mensagem pode trazer vários fatos diferentes.
+Se o cliente corrigir informação, substituir a evidência; não acumular versões antigas.
+Sem memória persistente, reconstruir do histórico visível. Não inventar histórico.
+
+OBJETIVO_CLARO: 15 — moradia, casa de lazer ou investimento declarados.
+PRODUTO_DEFINIDO: 15 — nome do projeto ou preferência confirmada pelo cliente.
+ENTRADA_INFORMADA: 15 — faixa/valor explicitamente informado, inclusive zero ou verba abaixo da referência.
+PARCELA_INFORMADA: 15 — faixa/valor confortável ou preferência explícita por compra à vista.
+HORIZONTE_INFORMADO: 10 — prazo de avaliação/compra declarado, inclusive horizonte longo.
+CRITERIO_TECNICO: 10 — critério específico do lote declarado (metragem, uso, infraestrutura etc.).
+PROXIMO_PASSO_ACEITO: 20 — cliente aceitou/solicitou visita, contato humano ou análise de proposta.
+
+Total máximo: 100. Recalcular a soma a cada atualização; não somar a cada mensagem.
+Score ≥86: oferecer o próximo passo; se já solicitado/aceito, encaminhar sem mais qualificação.
+Se faltar aceite para contato, pedir apenas o aceite, sem reiniciar descoberta.
+
+ROTAS QUE INDEPENDEM DO SCORE
+Pedido explícito de humano: encaminhar com o contexto disponível.
+Pedido de visita, reserva, proposta ou documentação que exige equipe: encaminhar conforme o pedido.
+Pós-venda: suporte, sem qualificação comercial.
+Parada/privacidade: interromper marketing e tratar a solicitação; score não altera isso.
+
+NÃO PONTUAR
+Quantidade de mensagens, elogio, “sim”, “ok”, fornecimento de CPF, cidade, idade,
+estado civil, concordância com o agente ou aceitação de pressão.
+Não tirar pontos por silêncio, comparação, dúvida jurídica, desconfiança, recusa de dados,
+baixo orçamento, linguagem simples ou demora de resposta. Respeitar o tempo do cliente.
+Score não determina estado E1–E7: uma pergunta de preço pode exigir E5 com score 0.
+
+EXEMPLO
+“Quero investir no Terras de Açores”: objetivo 15 + produto 15 = 30.
+“Tenho R$ 20 mil de entrada”: +15 = 45; proposta continua sujeita a análise.
+“Até R$ 2 mil por mês, quero avaliar em três meses”: +15 +10 = 70.
+“Quero pelo menos 300 m²”: +10 = 80.
+“Pode me encaminhar ao consultor”: +20 = 100; handoff imediato.
+Se essa última frase vier na primeira mensagem, encaminhar com score 20.
+Se pedir humano sem outros dados, não perguntar orçamento para elevar a pontuação.

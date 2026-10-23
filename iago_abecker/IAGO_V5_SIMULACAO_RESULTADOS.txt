@@ -1,0 +1,45 @@
+IAGO ABECKER V13.1 — RELATÓRIO DE VERIFICAÇÃO
+Revisão: 23/10/2026
+
+NATUREZA DESTE RELATÓRIO
+O pacote inclui cenários escritos de referência, regras determinísticas de integração e verificações locais. Não existe modelo de linguagem conectado ou atendimento real executado. Não há evidência de aumento de conversão, desempenho em produção ou taxa de acerto de um agente em WhatsApp.
+
+RESULTADO OBSERVADO DA VERIFICAÇÃO LOCAL
+Comando: python3 iago_abecker/validar_pacote.py
+Execução V13.1 em 23/10/2026: 29 testes executados e aprovados (OK), incluindo
+conferência das 64 unidades com cada linha do Excel e preservação do original.
+O pacote contém 38 cenários para verificação de estrutura e exemplos escritos.
+Nos cenários com sinais estruturados, também foi conferida a rota de referência.
+As 40 perguntas do FAQ têm referências internas válidas.
+Nenhuma dessas verificações executou uma LLM ou enviou mensagens a clientes.
+
+COBERTURA
+38 cenários escritos para homologação de uma plataforma, incluindo:
+entrada genérica, produto já informado, preço direto, planos de 36 meses,
+entrada divergente, localização, humano sem orçamento, proposta, visita,
+reserva, identidade virtual, CPF, PDF, decisão conjunta, retorno, falta de
+histórico, pós-venda, parada, exclusão, valorização, campanha sem ano,
+IPCA, resposta curta em contexto, indicação, instrução conflitante,
+áudio, humano ativo, prontidão alta, mídia disponível, falha e sucesso de
+CRM, total de lotes versus estoque, terreno versus casa e score repetido.
+
+O QUE O TESTE LOCAL PODE COMPROVAR
+Integridade JSON e referências; existência dos módulos; isolamento do escopo;
+coerência aritmética das referências de 36 meses; limites de formatação dos
+exemplos escritos; prioridades de rotas com sinais estruturados; score sem
+dupla contagem; falha fechada na ausência de validade e consulta comercial.
+
+O QUE AINDA EXIGE HOMOLOGAÇÃO REAL
+Extração de intenção pelo modelo; resposta gerada em cada cenário e suas
+variações; continuidade entre turnos; recuperação de documentos; mídia e
+áudio; sucesso e erro das ferramentas reais; supressão de contatos; proteção
+contra instruções conflitantes em documentos; privacidade entre contatos;
+validação financeira; tomada de atendimento por humano.
+
+STATUS COMERCIAL
+Porto do Sol em vendas após o evento de 17/10: 64 unidades da planilha atual
+fornecida pelo usuário. Valores da planilha substituem os anteriores.
+Parcelamento não informado nessa planilha. Não há estoque em tempo real.
+Terras de Açores mantém referências sem validade comercial confirmada.
+Campanha futura desse produto, agenda e reserva não integradas.
+Pendências documentadas em PENDENCIAS_E_FONTES.md.

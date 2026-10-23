@@ -1,0 +1,118 @@
+{
+  "versao": "13.1",
+  "status": "preparado_para_homologacao_sem_integracoes_ativas",
+  "identificacao_operador": {
+    "nome_operacao": null,
+    "vinculo_com_abecker": null,
+    "responsavel_comercial": null
+  },
+  "fuso": "America/Sao_Paulo",
+  "capacidades": {
+    "crm": false,
+    "transferencia_humano": false,
+    "agenda": false,
+    "consulta_estoque": false,
+    "consulta_tabela": false,
+    "envio_midias": false,
+    "transcricao_audio": false,
+    "registro_privacidade": false
+  },
+  "rotas": {
+    "comercial_responsavel": null,
+    "pos_venda_responsavel": null,
+    "privacidade_responsavel": null,
+    "fallback": "Oferecer contato institucional público da base, esclarecendo que não é uma transferência automática nem o corretor responsável desta operação."
+  },
+  "privacidade": {
+    "controlador": null,
+    "politica_url": null,
+    "canal_solicitacoes": null,
+    "retencao_dias": null,
+    "base_legal_definida_pelo_controlador": null,
+    "cpf_na_qualificacao": false,
+    "documentos_por_canal_seguro": true
+  },
+  "tabela_comercial": {
+    "id": null,
+    "aprovada_por": null,
+    "atualizada_em": null,
+    "valida_ate": null,
+    "produto_e_lote_obrigatorios": true
+  },
+  "eventos": {
+    "porto_do_sol": {
+      "status": "ja_realizado",
+      "dia_mes_informado": "17/10",
+      "data_hora": null,
+      "regulamento_url": null,
+      "aprovado_por": null
+    },
+    "terras_de_acores": {
+      "data_hora": null,
+      "regulamento_url": null,
+      "aprovado_por": null
+    }
+  },
+  "midias": {
+    "porto_do_sol": [],
+    "terras_de_acores": [],
+    "schema_item": {
+      "id": null,
+      "tipo": null,
+      "url_ou_asset_id": null,
+      "descricao": null,
+      "render_ilustrativo": null,
+      "aprovado_por": null,
+      "valido_ate": null
+    }
+  },
+  "followup": {
+    "habilitado": false,
+    "permissao_registrada_obrigatoria": true,
+    "respeitar_janela_e_template_provedor": true,
+    "max_tentativas_sem_resposta": 2,
+    "intervalo_minimo_horas": 48,
+    "horario_local_inicio": "09:00",
+    "horario_local_fim": "18:00",
+    "dias_semana": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "suprimir_feriados": true,
+    "parar_em": [
+      "resposta_do_cliente",
+      "opt_out",
+      "pedido_privacidade",
+      "humano_ativo",
+      "pos_venda",
+      "conversao",
+      "recusa"
+    ]
+  },
+  "saida": {
+    "limite_alvo_caracteres_por_mensagem": 600,
+    "limite_linhas_explicitas": 5,
+    "max_mensagens_por_interacao": 2,
+    "uma_pergunta_principal": true,
+    "json_interno_nunca_enviar_como_texto_ao_cliente": true
+  },
+  "nota": "Estes campos são configuração declarativa. Não criam ferramentas, agendamentos, credenciais, armazenamento ou envio. Habilitar uma capacidade requer integração real testada. Os esquemas diferem dos originais.",
+  "tabelas_por_produto": {
+    "porto_do_sol": {
+      "arquivo": "IAGO_PORTO_DO_SOL_UNIDADES.json",
+      "origem": "planilha_atual_fornecida_usuario",
+      "recebida_em": "2026-10-23",
+      "consulta_em_tempo_real": false,
+      "permite_informar_valores_da_planilha": true,
+      "permite_simular_parcelamento": false,
+      "validade_ate": null
+    },
+    "terras_de_acores": {
+      "arquivo_vigente": null,
+      "permite_apenas_referencia_atribuida": true
+    }
+  }
+}
