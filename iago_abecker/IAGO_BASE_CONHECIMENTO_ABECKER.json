@@ -160,6 +160,8 @@
       },
       "endereco_referencia": {
         "valor": "Rua 1902, esquina com Rua Maristela Mendes Amorim, Itajubá",
+        "pin_google_maps": "https://maps.app.goo.gl/3PGkfVoTbcUsqTgZ6?g_st=ic",
+        "pin_status": "link fornecido pelo usuário para o endereço do loteamento",
         "variantes_anexo": [
           "Rua 190",
           "Maristela Mendes Amorin"
@@ -275,6 +277,8 @@
       },
       "localizacao": {
         "referencia": "Rua Teresinha Salete Nichetti Volkmann, Barra Velha/SC",
+        "pin_google_maps": "https://maps.app.goo.gl/f7aMdMiKxZDCdTzd8?g_st=iwb",
+        "pin_status": "link fornecido pelo usuário para o endereço do loteamento",
         "relacao_lagoa": "Proximidade da lagoa descrita na página oficial",
         "centro": "Posicionamento do anexo; não afirmar distância exata ao centro",
         "fontes": [
